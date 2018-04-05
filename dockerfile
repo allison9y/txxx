@@ -1,5 +1,4 @@
-FROM ubuntu:latest
-MAINTAINER support@langpia.com
+
 
 ENV TIKA_RACT_SERVER http://langpia.com/txxx/tika-ract-server-1.13.jar
 
