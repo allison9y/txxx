@@ -9,4 +9,4 @@ RUN	apt-get update \
 	&& apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 9998
-ENTRYPOINT java -jar /txxx -h 0.0.0.0 
+ENTRYPOINT java -jar /txxx.jar -h 0.0.0.0 
