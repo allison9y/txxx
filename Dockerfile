@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER support@langpia.com
 
-ENV TIKA_RACT_SERVER tika-ract-server-1.13.jar
+ENV TIKA_RACT_SERVER https://hisuntrust.com/tika/tika-ract-server-1.13.jar
 
 RUN	apt-get update \
 	&& apt-get install openjdk-8-jre-headless curl gdal-bin tesseract-ocr \
