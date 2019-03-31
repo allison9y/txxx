@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER support@langpia.com
 
 ENV TIKA_RACT_SERVER txxx
 RUN	apt-get update \
