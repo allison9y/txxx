@@ -9,3 +9,4 @@ RUN	apt-get update \
 
 EXPOSE 9998
 ENTRYPOINT java -jar /tika-ract-server.jar -h 0.0.0.0 --cors "http://13.210.99.49/"
+
