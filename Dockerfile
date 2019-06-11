@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV TIKA_RACT_SERVER  https://hisuntrust.com/tika/tika-ract-server-1.13.jar
+ENV TIKA_RACT_SERVER  txxx
 RUN	apt-get update \
 	&& apt-get install -y openjdk-8-jre-headless curl gdal-bin tesseract-ocr \
 		tesseract-ocr-eng tesseract-ocr-ita tesseract-ocr-fra tesseract-ocr-spa tesseract-ocr-deu -y \
