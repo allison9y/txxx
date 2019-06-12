@@ -8,5 +8,4 @@ RUN	apt-get update \
 	&& apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 9998
-ENTRYPOINT java -jar /tika-ract-server.jar -h 0.0.0.0 --cors "http://3.130.0.154
-"
+ENTRYPOINT java -jar /tika-ract-server.jar -h 0.0.0.0 --cors "http://3.130.0.154"
